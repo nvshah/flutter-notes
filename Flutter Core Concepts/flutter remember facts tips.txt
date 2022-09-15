@@ -1,0 +1,42 @@
+flutter remember facts tips
+
+* runApp()
+  ---
+  - The runApp() takes the given widget & makes it as a Root of the Widget Tree
+
+  - It inflate given widget & attach it to screen
+
+  Calling runApp() again will detach the previous root widget from the screen
+  & attach the given widget in its place
+  The new widget tree is compared to previous widget tree & any differences are applied to underlying render tree,
+  Similar to what happens when stateful widget rebuilds after calling setState()
+
+
+* Flutter & Native Code (Android, IOS)
+  -> When you pass data from dart -> (Java, kotlin, swift, ...) its automatically decoded at the reciever side
+     (ie via Codec)
+     & When some response is send by Native to flutter, again response is automatically decoded back to native
+     dart type
+
+
+* Flutter packages (modularization)
+  --------------------------
+  2 options :-
+    1. Git &
+    2. Keep in same Repo in same project folder
+
+    For best developer experience keep packages in same repo,
+    because
+    via Git: flutter often cache the packages so we may not get latest changes on pub get !
+
+  Flutter Package & Application Project
+  ---
+  NOTE
+  Inorder to access for Flutter Application Package/Project, you don't need to pass the package name prefix
+  to asset path
+  But
+  Incase of flutter package, you need to provide the package name prefix or param inorder to access
+  the asset at that location (inorder to use same asset in that flutter package)
+
+  A1. package/<packageName>/<assetPath>   // Eg package/fpack/assets/img/img1.png
+  A2. provide package name as param to AssetImage(assetPath, package: pkgName)

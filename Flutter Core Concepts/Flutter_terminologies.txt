@@ -1,0 +1,70 @@
+* Widget :
+  ----
+   - Blueprint or Recipie about What UI should look like 
+
+* Element :
+  ----
+   - Holds info abt where widget stays in relative to other widgets in Widget Tree
+   - It just implements BuildContext 
+    
+   - Context :- Some Meta-Information
+       \
+        - Info such as {Parent, Child, }
+
+   - Elements references to the widgets
+     & are responsible for comparing the Widget differences
+
+   If widget is responsible for creting child widgets
+   then elements is created for each child object
+
+   => BuildContext obj are Element obj actually
+   
+
+* RenderObject :
+  -----
+   -> Beyond the Widgets Layer there is Rennder Layer 
+   -> So Widget Tree uses Render Tree underhood via Element Tree
+
+   - Render tree- low level protocol
+       \
+       Render holds responsibilities such as paint protocols
+
+   - RenderObjects :- deal with layout | Painting | Hit Testing | Accessibility
+        \
+         -> Everything you see on Screen is "RenderObject"
+            Everything You code is "Widgets"
+
+            Both Widget & RenderObjects are managed by Element(ie Context)
+
+        Eg RenderBox :- 
+             - 2d Coordinates Render Objects
+             - Most flutter objects are RenderBox 
+
+   -> RenderObjects can sync from frame to frame 
+   -> RenderObject can be Re-Used which helps to improve Performances
+
+   - If widget is removed from tree, then corresponding element is detached & so as corresp RenderObject
+
+   [Keys - Significance]
+    -> Flutter uses Keys to recognize if any obj move to new location so that it can utilize the same obj 
+
+   -> If you wannt to move widget to completetly diff part of Entire Tree - then you need {Global Key}
+
+
+--------
+Widget Tree :- Widget's Configurations
+  - Widget requests the Element to mount this things on Tree
+
+  StatelessWidget
+
+Element Tree :- Widget Mounted/Rendered on the Screen
+  - Mounts add the elements to the element tree
+
+  StatelessElement, StatefulElement
+
+  -> StatefulElelement calls the corresp Widgets build method to check for child or children
+     so that they can also create corresp element in Widget Tree
+
+  StatefulWidget <- For StatefulElement -> state-obj (STATE)
+
+  This state_obj also keeps reference to StatefulWidget

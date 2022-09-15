@@ -1,0 +1,35 @@
+https://www.qfles.com/interview-question/flutter-interview-questions
+
+----
+
+1) How Widgets Render Itself ? 
+   i.e Widget Tree, Element Tree, Render Object tree  (Foundation)
+
+2) What is significance of Key in Flutter ?? (relation of above only)
+
+3) What is Sliver & how it is useful ?? (Scrollable Portion)
+
+4) What is InheritedWidget & Provider ??
+
+5) What is Navigator & Custom Navigation Stack (Route) ??
+   Diff between Navigator1 & Navigator2 ??
+
+6) What is Hooks & State Management ??
+
+7) What is Isolates ??
+
+8) Can we use context in initState() ??
+
+9) DIff between Package & plugin ?  
+
+10) LifeCycle of Widgets ?
+    Listen Widget LifeCycle diff phases 
+    LifeCycle of an App
+
+11) Explicit Animation & Implicit Animation ??
+
+12) Flutter App Lifecycle vs Flutter Widget LifeCycle
+
+13) What is difference between didChangeDependencies & didUpdateWidget ??
+
+14) Key significance in Widget/Flutter ?

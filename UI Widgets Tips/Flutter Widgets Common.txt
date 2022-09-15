@@ -1,0 +1,12 @@
+Flutter Widgets Common
+
+* Box Widgets :
+  ---
+   -> SizedBox, Container, FractionallySizedBox, ConstrainedBox
+      LimitedBox
+      PreferredSize
+      Builder
+
+* Animated Widgets :
+  ---
+   -> AnimatedContainer, AnimatedList

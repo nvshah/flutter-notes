@@ -1,0 +1,25 @@
+flutter_concepts_articles
+
+
+* Dynamic Links & Deep Linking
+  ---
+  https://blog.logrocket.com/understanding-deep-linking-flutter-uni-links/
+  https://blog.devgenius.io/firebase-flutter-dynamic-links-step-by-step-guide-630402ee729b?gi=eb7b12385716
+  https://docs.flutter.dev/development/ui/navigation/deep-linking
+
+* Modularization :
+
+  - https://medium.com/flutter-community/mastering-flutter-modularization-in-several-ways-f5bced19101a
+  - https://jilliboutique.com/blogs/marks-dart-and-flutter-blog/google-flutter-introduction-dependencies-packages
+
+  - https://medium.com/const-final-and-static-in-dart/libraries-packages-and-import-in-dart-how-they-work-and-should-be-used-part-1-ccde79d5ec02
+  - https://flutterx.com/modular-flutter-apps-design-and-considerations-2019-12-01
+
+  [Code Ref]
+  - https://github.com/rrifafauzikomara/flutter_modularization/tree/local
+
+* (ViewInsets & ViewPadding)
+  https://medium.com/flutter-community/a-flutter-guide-to-visual-overlap-padding-viewpadding-and-viewinsets-a63e214be6e8
+
+* Localization & Internationzalization
+   - https://lokalise.com/blog/flutter-i18n/

@@ -1,0 +1,5 @@
+to explore check list
+
+- Flutter Localization
+
+- Navigation & NavigationState

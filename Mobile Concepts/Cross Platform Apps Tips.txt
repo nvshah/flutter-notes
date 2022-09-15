@@ -1,0 +1,58 @@
+Cross Platform Apps Tips
+------------------------
+ref :
+Robert Brunhage - (Flutter Cross Platform Setup in 6 minutes)
+
+
+------
+Useful commands :
+
+flutter config --help
+flutter run -d chrome    // flutter run device chrome
+
+flutter config --enable-windows-desktop  // If Windows is not stable in current Flutter version
+
+------
+Useful Packages :
+
+universal_html
+
+------
+
+1. Platform Aware Widgets
+----
+  - https://www.raywenderlich.com/4968762-platform-aware-widgets-in-flutter
+  - https://www.youtube.com/watch?v=0q2beiiXD98    (Andrea Tips)
+
+2. Responsive Design :
+----
+ - Mitch Koko (https://www.youtube.com/watch?v=MrPJBAOzKTQ&t=1s)
+
+ Responsive :
+  - FilledStacks
+  - ResoCoder
+
+Q) Difference between Responsive & Adaptive(Platform) :
+  ------------
+   -> If you are building Cross-Platform app then it comes to Responsive (because there are multiple
+      platforms like Web, Mobile, Desktop) first & then Adaption
+
+   -> But if you consider Single Platform but different OS, (ie Android, IOS) then you may check
+      for Platform Specific Widgets
+
+
+   So Responsive is Parent which can comprise of Adaptiveness to platform as one of its Sub-Task or feature
+
+
+3 Orientation & MediaQuery :
+  -------------
+  -> Potrait & Landscape
+
+   - MediaQuery.of(context).orientation
+   - OrientationBuilder()
+
+   Shortest Side :- MediaQuery.of(context).size.shortestSide
+
+   Principle :
+     Mobile Device :- SideBar as a Drawer menu
+     Tablet/Desktop :- Sidebar as a Included View in GridView/ListView/Column/Row on Left

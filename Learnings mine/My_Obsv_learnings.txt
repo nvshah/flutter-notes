@@ -1,0 +1,4 @@
+=> You can use IntrinsicWidth | IntrinsiceHeight to get height | width take by widget
+   Computationally
+
+=> int.clamp()  // used to normalize number betweeb a to b

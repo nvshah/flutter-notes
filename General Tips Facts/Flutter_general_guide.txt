@@ -1,0 +1,11 @@
+* File Structure :
+    ref : https://medium.com/flutter-community/flutter-scalable-folder-files-structure-8f860faafebd
+
+    - Do it as what seems sensible (ie by Widgets or by Features) at that moment
+
+
+* Debug Goto TOol :
+    - Not print statement always is good idea 
+
+    -> make use of DevTools
+    -> Logging framework

@@ -1,0 +1,56 @@
+=> TIPS :
+
+- RenderBox is used at run time to get position as well as dimension of a Widget in a flutter tree.
+   |
+    - localToGLobal()  // to get position & offset
+
+- Inkwell always needs a Material Anc
+
+- Neon Glow Effect (https://stackoverflow.com/questions/56420822/how-to-add-a-neon-glow-effect-to-an-widget-border-shadow)
+-------------------------------------------
+
+* To UnFocus from some widget :
+  ----------
+   -> FocusScope.of(context).unfocus()
+
+* To find the nearby Rendered Object i.e Widget :
+  ------------
+   final renderBox = context.findRenderObject() as RenderBox
+
+
+* To get size of current/nearby Widget :
+  ------------
+    final renderBox = context.findRenderObject() as RenderBox
+    renderBox.size // size of our widget
+
+
+* To get the position of our Widget :
+  --------------
+    final offset = renderBox.localToGlobal(Offset.Zero)
+
+
+* To Link diff widgets with each other :
+  -----------
+   CompositeTransformTarget(), CompositeTransformFollower(), LayerLink()
+
+* To get ViewPort
+  -------
+   -> RenderAbstractViewPort.of()   for RenderBox
+
+
+* Make Drawer Color Transparent :
+  ---------------
+   Theme(
+      data: Theme.of(context).copyWith(
+        canvasColor: Colors.transparent,
+      ),
+      child: Drawer()
+   )
+
+* To Make Widget Responsive to Surrounding Box (ie Shrink or Expand)
+  -----
+   -> you can use FittedBox 
+      or 
+      You can make your widget responsive itself via MediaQuery or BoxConstraints
+      or 
+      More Advance You can use LayoutBuilder

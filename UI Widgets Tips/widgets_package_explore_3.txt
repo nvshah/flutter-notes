@@ -1,0 +1,110 @@
+- grouped_list  // (for Grouped listView)
+  indexed_list_view
+  scrollable_positioned_list
+
+- Swayze  // to Display Large Tables 
+
+- once  // (kinda WorkManager)
+
+- liquid_swipe 
+  animated_smooth_indicator
+  slide_to_act
+
+- flutter_cool_card_swiper
+- card_swiper    // Similar to PageView but for small portion
+
+- convex_bottom_bar
+
+  swipe_deck  // swipeable deck of cards like effect  
+
+- cascading_menu   // Horizontal & Vertical SubMenus 
+- glitcheffect     // Text Annimmation Glitch Effect
+
+- transformable_list_view
+- shaky_animated_listview  //
+- card_stack_widget
+- bulletin    // animated flash cards
+- select_card   // animated card selection
+
+- smart_select
+- theme_button
+
+- word_collector  // Use to select word chips in Container
+- multi_dropdown  //  select one or more options from a list
+- simple_selector  // similar to bottom bar
+- inkblob_navigation_bar
+
+- analog clock picker
+- clock   // clock utils such as stopwatch & more
+
+
+- pod_player  // vimeo + youtube
+
+- path_animator // animate the drawn path on Canvas
+
+- confetti  // (celebrate drop Animations)
+
+- Earth O One  // Login from multiple platforms in single
+
+- dotted_dashed_lines
+- charts_flutter
+
+-------
+
+- responsive_framework
+- flutter_platform_widgets
+- universal_html    // eases cross platform development
+- flutter_next
+
+- flutter_overlay_apps  // to display widgets over diff apps
+- flutter_portal
+- super_tooltip
+- fluid_dialog
+- modals   // Best for Overlay
+- popup_banner  // banner slider
+- quick_alert   // Beautiful Warnings Dialogs
+
+- feedback
+- is_first_run  // to check if app runs for the first time ?
+
+- flutter_adaptive_ui
+- canton_ui
+
+- flutter_parsed_text
+  flutter_parsed_text_field
+  flutter_mentions
+
+- font_awesome_flutter  // Icons from font awesome
+
+- appflowy_editor  // highly customizable rich text editor
+
+  from_to_timepicker
+
+- debounce_text_field
+
+- scroll_snap_list
+- material_scrollbar
+- vs_scrollbar
+- flutter_any_scroll
+
+- share_social_network  // bottomsheet with pre-defined share application
+- privacy_screen
+
+- cron  // Time based job scheduler
+
+- local_auth  // biometric authentication
+-----------
+
+- dart_frog   // Backend using Dart
+
+- json_model  // to automate the json serializable process
+
+- flutter_eval  // fully dynamic Flutter Widgets
+
+--------
+[ARCHI Related]
+
+- flutter_modular   // Project Structure
+
+- stacked
+  mvvm_architecture  // MVVM Archi both

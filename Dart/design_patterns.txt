@@ -1,0 +1,8 @@
+design_patterns
+
+* Singleton & Factory :
+  - ref : Vandad Chapter 1 State Management Basics
+
+  A._();
+  static final i = A._();
+  factory A() => i;

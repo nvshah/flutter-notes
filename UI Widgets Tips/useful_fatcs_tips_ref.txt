@@ -1,0 +1,3 @@
+* To display SnackBar :
+  -----
+   -> You need messengerKey := GlobalKey<ScaffoldMessengerState>()

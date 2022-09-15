@@ -1,0 +1,16 @@
+* Widgets :
+  ------
+
+
+* GestureDetector & Where it Taps :
+  -----
+  - To know where it ebing tapped (ie more tap details)
+    You cann use param of GestureDetector :- `onTapDown`
+
+     dx & dy
+
+
+* Assets & RootBundles :
+  ----
+  -> You can access assets if those are defined in assets/folder of your project
+  -> for other files you can use RootBundle Technique (ie to read file content as String & then parse it backs to Obj)

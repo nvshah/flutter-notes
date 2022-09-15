@@ -1,0 +1,15 @@
+* Flutter State Restoration (Retro Portal Youtube)
+  ---
+
+
+* Flutter State Management :
+  ---
+  
+  Q) How you can achieve State management via ChangeNotifier() only (ie without Provider) ??
+     ->
+      You can do so by adding listenet to ChangeNotifier in initState of your StatefulWidget
+      \
+       changeNotifierObj.addListener(() {})
+
+
+TIP :- always check mounted status (before updating/refreshing the state)

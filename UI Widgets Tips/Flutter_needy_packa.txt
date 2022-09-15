@@ -1,0 +1,17 @@
+* Freezed  { SuperEnums, Equatable, JsonSerializable }
+* Equatable
+* JsonSerializable
+
+* BLOC 
+* MobX 
+* GetX 
+* Kiwi 
+* Injectable 
+* RiverPod 
+
+* functional_widgets  <-**
+* flutter_hooks
+
+* Modals   // For Showing Popup
+
+* MVVM

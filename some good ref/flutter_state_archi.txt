@@ -1,0 +1,12 @@
+ref :- youtube.com/watch?v=zKXz3pUkw9A
+
+
+[State Maanagement How it Works - Avalanhce Channel]
+ref :- youtube.com/watch?v=WrDpkdVmr2I
+
+[Flutter Hooks ] 
+ref :- https://www.youtube.com/watch?v=hiqpPKF_fic
+
+
+[BLOC]
+https://www.raywenderlich.com/31973428-getting-started-with-the-bloc-pattern?utm_content=208161602&utm_medium=social&utm_source=linkedin&hss_channel=lcp-2590045

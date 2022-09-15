@@ -1,0 +1,6 @@
+* Good Starter Project generated from CLI :
+ ---
+
+ 1) Get
+ 2) Mason
+ 3) Very Good CLI

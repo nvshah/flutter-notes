@@ -1,0 +1,17 @@
+videos ref
+
+Flutter Europe
+- Provider (Remi)
+- Multiplatform Flutter
+- Navigator & Routes
+- Animations in Flutter
+- Widgets RenderObjects
+- Imp Complex UI
+
+
+Flutter Cross Platform Setup
+- Robert Brunhage
+
+
+[Manage Assets Like Pro]
+https://www.youtube.com/watch?v=H7YgrszBCLQ
