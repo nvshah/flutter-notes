@@ -9,6 +9,10 @@
   3. AnimationController
 
   4. Overlay Widget   // Put the widget on top of all application
+      \
+       -> Modal
+       - CompositedTransformWidget, Layer
+
 
 * Tips :
   - Start Identifying Static Elements/Positions

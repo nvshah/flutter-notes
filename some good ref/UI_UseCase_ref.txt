@@ -12,6 +12,9 @@
    https://pub.dev/packages/flutter_portal
    modals package
 
+* Lottie Animation
+  https://medium.com/@affanminhasdev/flutter-lottie-animation-2504243f432f
+
 ------------
 (Youtube)
 
@@ -21,6 +24,7 @@
 
 3) Flutter Firebase Auth :- (Youtube :- Johannes Milke)  // https://www.youtube.com/watch?v=4vKiJZNPhss
 
+4) Animated List :- https://www.youtube.com/watch?v=rDFJhIobj7I
 
 ----------
 

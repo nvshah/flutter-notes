@@ -98,9 +98,25 @@ Visibility () | Opacity() | Offstage()
 
 https://stackoverflow.com/questions/62355547/visibility-vs-offstage-vs-opacity-which-is-best-in-hiding-a-child-from-widget-t
 
-
+To Disable the Widget You can also use :
+AbsorbPointer()
 
 ------------
 flutter constraints 
 
 https://itnext.io/flutter-box-constraints-columns-rows-382dcf82256a 
+
+
+-----------
+
+* TextFieldController & TextSelection :
+  ---
+  2 properties are there with controller
+  text & selection
+
+  selection : TextSelection
+    \
+     -> It decides how many positions or characters to consider while selecting this particular character at position
+
+  REMEMBER:-
+  Because Emojis & other other requires more unicode characters to form a single visibly symbol

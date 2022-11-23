@@ -3,6 +3,12 @@ ref :-
 
 -----------
 
+* To provide Size of a Widget in terms of percentage %
+  =>
+   You can use these widgets :- { MediaQuery, FractionallySizedBox, Expanded, Flexible, ... }
+  -> FractionalOffset is also useful
+___________
+
 
 * Responsive Layout in Flutter :
   --------------

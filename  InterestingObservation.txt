@@ -52,6 +52,8 @@ When we use Column Widget with stretch on cross axis
 
          most probably your page will be stateful widget
 
+  AutomaticKeepAliveMixin vs State Restoration ??
+
 * PageView
 
   (https://thegrowingdeveloper.org/coding-blog/pageview-and-pagecontroller-flutter-tutorial-for-beginners)
@@ -78,3 +80,6 @@ When we use Column Widget with stretch on cross axis
    RotatedBox :-
       \
        For permanent rotation of box use RotatedBox() 
+
+
+*

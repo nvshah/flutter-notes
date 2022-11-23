@@ -45,3 +45,14 @@
    - denotes the rate of change & function that needs to be followed whilst value change (animation)
    
    Egg Linear Function
+
+
+-----------
+
+* Animation Type :
+
+  SizeTransition,    // Animate the widget based on size changes (in interval) based on animation spec
+  SlideTransition
+
+  When we work with Transition that change position of Widget in UI,
+  At that time GlobalKey is very important

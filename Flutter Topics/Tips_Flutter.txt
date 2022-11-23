@@ -1,7 +1,14 @@
+TIP :- always check mounted status (before updating/refreshing the state)
+
 * Side Effects In Flutter :
   -----
   Mutating state or calling async code inside the build method can cause unwanted widget rebuilds 
   and unintended behaviour
+
+* GlobalKey Significance :
+  ----
+  When we work with Transition that change position of Widget in UI,
+  At that time GlobalKey is very important
 
 
 * Flutter Hooks :
@@ -43,6 +50,10 @@
    -> dart:io.platform  // (Adaptiveness)
         \
          -> For Functionality Differences
+
+* To provide Size of a Widget in terms of percentage %
+  =>
+   You can use these widgets :- { MediaQuery, FractionallySizedBox, Expanded, Flexible, ... }
 
 * FutureBuilder Tisps (Right Way)
   -----------------

@@ -40,3 +40,21 @@
    -> it will return Future<T>, where T is obj you provide in drain(t),
       if ran success otherwise it will return error packed in Future
 
+
+* AsyncSnapShot & requireData :
+  ----
+  -> use `requireData` on AsyncSnapShot to read the data of your snapshot,
+     instead of force unwrapping data
+
+     Eg if(snapshot.hasData){ _values.add(snapshot.data!);}
+
+        if(snapshot.hasData){ _values.add(snapshot.requireData); }   <--**
+
+
+* ControllerStream<T> & StreamController<T>
+  ----
+  #Flutter / #Dart tip: you know about #StreamController, but do you know about #_ControllerStream?
+When you create an asynchronous generator that returns a Stream<T> and is marked as async*, the resulting data type is actually _ControllerStream<T> 🔥
+
+
+* StreamTransformerBase :- you can use to manipulate & transform your stream outputs

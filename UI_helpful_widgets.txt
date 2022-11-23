@@ -4,7 +4,8 @@ Transfor.translate()
 
 AnimatedSwitcher()
 AnimatedList
-SizeTransition   // Animation Type
+SizeTransition   // Animation for Scale/Size Type
+SlideTrasition   // Animation for Position
 
 Opacity, Visibility, Offstage  // Hide the widget
 
@@ -59,6 +60,14 @@ Ink()
 ReorderableListView
 
 RefreshIndicator
+
+SingleChildScrollView, FittedBox, Flexible, Expanded
+
+Listener   // For PointerCallback
+
+AbsorbPointer
+
+ErrorWidget
 
 ---------
 

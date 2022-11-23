@@ -2,6 +2,10 @@ Tips :-
 
 - Use AnnotatedRegion to customise the system UI overlay on a screen-by-screen basis
 
+packages :-
+ - lottie, simple_animations, animated_text_kit, animate_do
+   flutter_spinkit
+
 
 _____________
 
@@ -65,3 +69,10 @@ _____________
      or 
      We can provide static size to widget & use FittedBox to Expand or Shrink in its Surrounding
  
+
+
+-------------------
+
+* Widgets
+
+=> SizeTransition, SlideTransition

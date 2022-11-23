@@ -16,7 +16,12 @@
 
 => Most Flutter apps start with WidgetsApp as the root widget.
 
+=> By default there is 1 PrimaryScrollController per route & they have scroll direction vertical
+   So when
+   you use Scrollbar widget
+   then if no controller is provided then it looks upto this PrimaryScrollController
 
+=> MediaQuery.of(context) will led to rebuild of Widget on Config changes of Window
 
 --------
 
@@ -44,3 +49,19 @@
   ----
    -> Always use initialzed stream instance whilst using StreamBuilder & 
       dont call stream everytime re-building widget
+
+   -> Useful when you want to update some specific part of your Widget (let say Stateful)
+      without affecting other
+      Esp. when there is very frequent updates
+
+      For Eg. Search-Widget with Dropdown menu
+              (where Menu will be constantly updated very often)
+
+
+* Scrollable Widget Fact :
+  ----
+  -> Whenever any Scrollable Widget performs scrolling, then it notifies the scroll info to ancestor
+     Till it founds the NotificationListener widget
+
+  -> We can use ScrollConfiguration() widget to provide Custom Scrolling behavior in CustomScrollView
+

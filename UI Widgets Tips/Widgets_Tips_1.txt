@@ -18,3 +18,9 @@
      Unbounded Constraints
      Tight Constraints (min = max)
 
+* Scrollable Widget : (Behavior)
+  ---
+  -> SingleChildScrollView + Column {CustomHeader, Body}
+  -> CustomScrollView + ScrollConfiguration + Custom Header {Sliver Padding, SliverToBoxAdapter, etc ...}
+
+  -> ScrollBehavior

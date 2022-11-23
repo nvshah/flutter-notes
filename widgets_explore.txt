@@ -7,17 +7,17 @@
    - physics - NeverScrollableScrollPhysics
 
 * BackDropFilter()
-
 * Swiper()
-
 * AnimatedContainer()
-
 * VisibilityDetector()
 
 * Stack()
   IndexedStack() - often used with navigation
 
 * Ink   // alternative to Container()
+* Inkwell
+* InkResponse
+* InkImage
 
 * VideoPlayer()
 
@@ -57,6 +57,25 @@
 * AnimatedList
   SizeTransition
 
+* Focus()
+* Accordian()   // Expands & Shrinks
+* Shortcuts
+
+* MouseRegion
+* ToolTip
+
+* Scrollbar, ScrollConfiguration()
+  NestedScrollViewt
+
+* Semantics, ExcludeSemantics
+
+* MediaQuery.removePading()
+  MediaQuery
+
+* Dialog
+* Listener
+* BackButton
+
 ----- Packages
 
 device_preview   (preview app on different kind of device)
@@ -81,11 +100,13 @@ page_transition
 awesome_dialog
 
 showcaseview  (for showing tooltip tutorial like things)
-flutter_sidekick (Hero animation within single page)
+flutter_sidekick (Hero animation within single page)  [ref : https://pub.dev/packages/flutter_sidekick]
+local_hero
 
 auto_route
 routemaster
 fluro
+go_route
 
 auto_sized_styled_text
 

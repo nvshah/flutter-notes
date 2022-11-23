@@ -9,3 +9,11 @@
 
     -> make use of DevTools
     -> Logging framework
+
+
+* Linting For Erros & Better Code Dev
+  ---
+
+
+* Build Apks & Ipas for Mobile
+  - https://stackoverflow.com/questions/50645703/how-to-get-apk-and-ipa-file-from-flutter

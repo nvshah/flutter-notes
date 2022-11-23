@@ -9,3 +9,17 @@ Tips 2
 * JASPR : Flutter Web
   -----
    -> Make use of jaspr to build efficient Web-Site with dart language
+
+
+* Use Flutter Flow > for speedup your development
+
+
+* Pubspec.yaml :
+  ------
+  dependency_overrides:
+    platform
+
+  -> Inorder to define specific flutter version for the project
+
+
+* Root

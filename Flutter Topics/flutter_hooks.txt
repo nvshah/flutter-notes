@@ -1,11 +1,19 @@
 ref : https://codewithandrea.com/videos/reduce-animation-controller-boilerplate-flutter-hooks/
  (https://www.youtube.com/watch?v=hiqpPKF_fic)
 
+ ref : Youtube -> Avalanche, Robert Brunhage
+
 * Hooks :
   ----
    Alternative to Hooks :-
      -> create your own abstract State class for Hook You want to create 
 
+=> In gist, you can say that Hooks are Stateful class (alike Stateful Widget) but instead of
+   returning the State it returns some Custom Types (such as int, float, etc...)
+
+   So Its Statful class that will not always return State
+   \
+    -> i.e We can Say it is a TypeFull Class !
 -----
 
 * Hooks Concept :

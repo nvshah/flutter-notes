@@ -16,6 +16,7 @@ flutter config --enable-windows-desktop  // If Windows is not stable in current 
 Useful Packages :
 
 universal_html
+flutter_next
 
 ------
 
@@ -56,3 +57,15 @@ Q) Difference between Responsive & Adaptive(Platform) :
    Principle :
      Mobile Device :- SideBar as a Drawer menu
      Tablet/Desktop :- Sidebar as a Included View in GridView/ListView/Column/Row on Left
+
+
+* Keyboard Shortcuts :
+  ---
+  Focus()
+
+
+* Flutter Diff Platform Specific Impl (Stub Way)
+  -------
+  * Flutter Conditional Compilation (Platform Based)
+    https://stackoverflow.com/questions/61677387/flutter-how-use-conditional-compilation-for-platform-android-ios-web
+    https://medium.com/@dvargahali/dart-vm-tests-with-dart-html-yes-you-can-c15439e49cc1

@@ -1,8 +1,9 @@
 Flutter -> 
+-------------
   
   Widget Tree -> Element Tree -> Render Tree -> Layer Tree
 
-* Rendering : (pipeline)
+* Rendering : (pipeline)  [ref : Flutter youtuebe RenderObjects]
   --------
    User Input - Animation 
           |

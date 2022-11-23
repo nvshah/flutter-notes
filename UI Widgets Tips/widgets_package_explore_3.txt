@@ -2,6 +2,16 @@
   indexed_list_view
   scrollable_positioned_list
 
+- paginable
+- infinite_scroll_pagination
+- paginated_search_bar
+
+- number_pagination
+- animated_notch_bottombar
+
+- dropdown_search
+- textfield_search
+
 - Swayze  // to Display Large Tables 
 
 - once  // (kinda WorkManager)
@@ -10,15 +20,25 @@
   animated_smooth_indicator
   slide_to_act
 
+- flutter_spinkit
+
+- easy_sticky_header
+
 - flutter_cool_card_swiper
 - card_swiper    // Similar to PageView but for small portion
 
+- NToaster  // Notification Toaster
+
 - convex_bottom_bar
+- image_card
 
   swipe_deck  // swipeable deck of cards like effect  
 
 - cascading_menu   // Horizontal & Vertical SubMenus 
 - glitcheffect     // Text Annimmation Glitch Effect
+- skeleton_text
+
+- shadow_overlay
 
 - transformable_list_view
 - shaky_animated_listview  //
@@ -36,6 +56,7 @@
 
 - analog clock picker
 - clock   // clock utils such as stopwatch & more
+- custom_date_picker
 
 
 - pod_player  // vimeo + youtube
@@ -43,11 +64,19 @@
 - path_animator // animate the drawn path on Canvas
 
 - confetti  // (celebrate drop Animations)
+- animate_it
 
 - Earth O One  // Login from multiple platforms in single
 
 - dotted_dashed_lines
 - charts_flutter
+
+- switched_stack
+- super_drag_and_drop
+- super_clipboard
+
+- data_table
+- syncfusion_flutter_datagrid
 
 -------
 
@@ -63,22 +92,53 @@
 - modals   // Best for Overlay
 - popup_banner  // banner slider
 - quick_alert   // Beautiful Warnings Dialogs
+- shadow_overlay
+- overlayments
+
+- modal_side_sheet   // ** (best Eg for seeing custom animation impl)
+
+- fluttertoast
+- flash (snackbar)
+
+- dropdown_plus  // TextField + Dropdown
+
+- reaction_askany  // emoji reaction
+
+- flutter_inner_drawer
+- info_popup
+
+- daymoonpicker  // timepicker amazing
+
+- expandable_menu
 
 - feedback
 - is_first_run  // to check if app runs for the first time ?
 
 - flutter_adaptive_ui
 - canton_ui
+- flutter_adaptive_scaffold
+
+- flex_scheme_seed
 
 - flutter_parsed_text
   flutter_parsed_text_field
   flutter_mentions
+- multi_trigger_autocomplete
+
+- search_highlighted_text
+
+- Input_Form_Field  // better for text field
 
 - font_awesome_flutter  // Icons from font awesome
+
+- flutter_awesome_bottom_sheet
+- flutter_animated_swithcer
 
 - appflowy_editor  // highly customizable rich text editor
 
   from_to_timepicker
+
+- app_version_update
 
 - debounce_text_field
 
@@ -91,15 +151,35 @@
 - privacy_screen
 
 - cron  // Time based job scheduler
-
 - local_auth  // biometric authentication
+
+- flutter_download_manager
+- flutter_downloader
+
+- cr_file_saver
+
+- sotrage_view  // Inspector tool for Db, storage, shared pref
+- fast_cached_network_images
+
+- widget_loading   // Loading Widget Contents
+- flutter_easy_loading
+- loading_animation_widget
+
+- flutter_heatmap_calender
 -----------
 
 - dart_frog   // Backend using Dart
-
 - json_model  // to automate the json serializable process
 
+- flutter_gen_runner  // Safe Assets Management
+  build_runner
+
 - flutter_eval  // fully dynamic Flutter Widgets
+- mineral
+
+- integral_isolate  // power of compute function
+
+- axiom  // json to type-safe dart
 
 --------
 [ARCHI Related]
@@ -108,3 +188,12 @@
 
 - stacked
   mvvm_architecture  // MVVM Archi both
+
+- stock  // for asyncl data loading & caching  (Can help Paging3 Library impl of android)
+- drift
+
+- json rest server
+
+- asset_manager_cli  // autogenerate pubspec code
+
+- patrol   // Flutter Testing

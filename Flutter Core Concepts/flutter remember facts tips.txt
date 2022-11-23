@@ -19,24 +19,87 @@ flutter remember facts tips
      dart type
 
 
-* Flutter packages (modularization)
-  --------------------------
-  2 options :-
-    1. Git &
-    2. Keep in same Repo in same project folder
+* trees & layers :
+  ----
+  widget tree :- configuration
+  element tree :- glue between widget & render tree
+  render tree :- position & painting
+  layer tree :- All the paint operations for each layer
 
-    For best developer experience keep packages in same repo,
-    because
-    via Git: flutter often cache the packages so we may not get latest changes on pub get !
-
-  Flutter Package & Application Project
+* build()
   ---
-  NOTE
-  Inorder to access for Flutter Application Package/Project, you don't need to pass the package name prefix
-  to asset path
-  But
-  Incase of flutter package, you need to provide the package name prefix or param inorder to access
-  the asset at that location (inorder to use same asset in that flutter package)
+  Q What does build() phase eventally contribute ?
+  -> It updates the Element Tree
 
-  A1. package/<packageName>/<assetPath>   // Eg package/fpack/assets/img/img1.png
-  A2. provide package name as param to AssetImage(assetPath, package: pkgName)
+* RepaintBoundary()
+  -----
+  - Generally flutter groups the multiple RenderObject into Single layer (of Layer tree)
+    &
+    Layer handles the paint, repositioning & all other stuffs whilst drawing the pixels on screen to below level in engine
+
+  - If you want to avoid extra painting for your Widget then you can wrap it with RepaintBoundary()
+    |
+    this will assign new layer to corresp RenderObject
+
+* Rasterization :
+  -----
+  If a part of Layer Tree remains unchanged, then Flutter engine can reuse this pixels
+  this is called Rasterization
+
+
+* Flutter build Modes
+  ----
+  ref : retroportal youtube
+
+  -> You can configure 3 kinda build modes i flutter
+     1) debug  2) profile  3) release
+
+  -> for vscode you need to have a configuration file for this
+     .vscode/launch.json
+
+
+* rootBundle vs DefaultAssetBundle
+  -------------------
+  rootBundle :- corresponds to assets for entire app (ie images, json files, etc...)
+
+  AssetBundle.of(context) :- allow you to refer the Assets desired based on the environment (ie
+                             whatever provided & decided by the parent at run time )
+
+
+* setState() | Stateless | Stateful | Descendents :
+  ------------------
+  ref :
+  https://abhishekdoshi26.medium.com/rebuild-your-widget-without-setstate-valuenotifier-bd7c1bf7a96b
+  https://stackoverflow.com/questions/62834750/does-setstate-rebuild-the-whole-widget-tree-for-a-screen-in-flutter-and-how-does
+
+  1) StatelessWidget (when is a descendent of a Stateful Widget),
+     Now when setState() is called in parent stful wdgt, then Stateless widget's build will be called
+     Regardless the configuration changes for itself (ie parameter changes or not)
+     The only case when build of descendent stlss wdgt is not called is when that stls wdgt is `const`
+
+  2) Stateful Widget (as a Descendent)
+     -> will call didupdate() & then build()
+
+     -> The only case when these 2 methods are not called (for parent setState()) is when
+        this Stateful Wdgt is defined as const
+
+
+* WidgetsFlutterBinding.ensureInitialized() ??
+  ----
+  ref :- appsolveworld # widgetsflutterbinding ensureinitialized()
+
+  WidgetBinding :
+  -> helps to glue the `Widgets` Layer & Flutter's `Engine` Layer !
+
+  -> If flutter needs to call native code before calling runApp(), then
+     WidgetsFlutterBinding.ensureInitialized()
+     makes sure that you have an instance of `WidgetBinding`, which is required to use platform channels
+     to call the native code
+
+     You only need to call this method if you need the binding to be initialized before calling the `runApp`
+
+     For Eg when you need to call FirebaseApp.initialize(), then you need to call ensureInitialized(),
+            because Firebase is using native code during initialization !
+
+  Another Usecase of WidgetsBinding :-
+   -> .instance.addPostFrameCallback()

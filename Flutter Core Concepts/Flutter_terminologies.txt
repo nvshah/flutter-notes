@@ -22,7 +22,44 @@
 
 * RenderObject :
   -----
-   -> Beyond the Widgets Layer there is Rennder Layer 
+   -> RenderObject is responsible for Layout & Painting
+
+   1. Layout Phase :
+      - Constraints Down
+      - Size Up
+        (Size needs to be in bound of Constraints)
+
+      During this layouting flutter walks down the Render Tree passing the Constraints
+      BoxConstraints are 2-D constraints for specific type of Box called as a RenderBox
+
+   2. Paint Phase
+
+      -> During this phase paint() of RenderObject is called !
+
+      on Canvas :- drawRect, drawLine
+
+      -> here render object can also paint its child on top of other content
+
+   3. Compositing
+      -----
+      -> Combining multiple img into single picture
+      -> painting doesnt happen on a single canvas
+         (We may need to just reposition the text)
+
+      (So fot these we have Layer Tree to handle paint & repositiong operations)
+
+  => Each layer is painted Seperately
+     So flutter tries to group multiple RenderObject into same layer
+     but
+     if you wrap a widget in RepaintBoundary, then flutter give the RenderObject its own layer
+     & thus can avoid extra Repainting
+
+   4. Rasterization :
+      ---
+      -> to reuse pixels whilst painting is known as Rasterization
+      -> RepainBoundary() can help to achieve Rasterization
+
+   -> Beyond the Widgets Layer there is Render Layer
    -> So Widget Tree uses Render Tree underhood via Element Tree
 
    - Render tree- low level protocol
@@ -50,6 +87,26 @@
 
    -> If you wannt to move widget to completetly diff part of Entire Tree - then you need {Global Key}
 
+  => RenderObject has lots of Flexibility,
+     -> RenderObject can draw more on top of its children
+
+  -> Flutter tries to group multiple RenderObject into same layer
+
+* Layer Tree :
+  ----
+  -> All the paint operations for each layer
+
+  -> Painting doesnt happen very often,
+     Its repositioning that may happen often
+
+  -> & to solve this we have Layer Tree
+
+---
+REMEMBER
+---
+-> If you wrap the widget with RepaintBoundary(), then flutter will give its RenderObject its own layer
+   &
+   this can help to avoid extra Repainting
 
 --------
 Widget Tree :- Widget's Configurations

@@ -15,6 +15,23 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
    The ScaffoldMessenger creates a scope in which all descendant Scaffolds register to receive SnackBars, 
    which is how they persist across these transitions
 
+* Navigator vs Overlay vs showDialog
+  -------------
+   showDialog follow Navigator Stack so push & pop for it will be in sync with Navigator Stack
+   but
+   Overlay is independent of Navigator Stack
+   So
+   Inorder to sync Overlay with Navigator You need to add RouteObserver
+   (ie implement the RouteObserver class)
+
+* CompositedTransformer | LayerLink | Overlay | OverlayEntry
+  ----------
+  -> You can use this all to Display Modal| Popup kinda Dialog
+     That will
+     - Firstly not on Navigator Stack (ie Independent from Navigator Stack)
+     - You can put this Dialog close|relative to the widget you wanna target
+       (ie target + hook as a dialog)
+
 
 * MonoSpaced Fonts :
   -------
@@ -117,3 +134,53 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
      -> as compare to StatefulWidget & setState()
 
   alternative :-> ValueNotifier(), Listener()
+
+
+* Focus, FocusNode & FocuseNode tree:
+  ------
+  - Old way to get FocusNode of Parent :- FocusNode.of(context)
+
+
+* State Restoration vs AutomaticStateAlive State Mixin :
+  ----
+  -> When App switch between foreground & background & in between if we want to preserve the state
+
+
+* FittedBox & LayoutBuilder :
+  ----
+  ref : https://stackoverflow.com/questions/61316414/how-to-get-inside-a-widget-the-resulting-size-of-itself-shrinked-by-fittedbox
+
+  -> In alternative to FittedBox you can go for Felxible() + ConstrainedBox()
+
+
+* Listner & PointerCallBack :
+  -----
+  - When tap event happens
+
+* To Disable the Widget :- AbsorbPointer()
+
+
+* Error Widget Builder :-
+  ---
+  -> you need to register(ie assign) this before calling run(myApp())
+
+     ErrorWidget.builder = ...
+
+
+* MediaQuery | Padding | ListView :
+  -------------
+  ref : https://github.com/flutter/flutter/issues/14842
+
+  - By default, ListView will automatically pad the list's scrollable extremities
+
+  - If you put a widget before the ListView,
+    you should wrap the ListView with a MediaQuery.removePadding widget (with removeTop: true).
+
+  -> REMEMBER When you call MediaQuery.of(context) => it will build that part of the Widget when
+              window (for Android | Ios | Web ) config changes !
+
+* RenderBox | RenderObject :
+  ---------------
+  ref : youtube flutter channel
+
+  ->

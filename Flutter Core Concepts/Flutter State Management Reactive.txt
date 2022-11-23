@@ -1,5 +1,9 @@
 [RiverPod] https://codewithandrea.com/articles/flutter-state-management-riverpod/
 
+[PMVVM] https://dev.to/noureldinshobier/intro-to-mvvm-architecture-in-flutter-using-pmvvm-package-420a
+
+Advanced Provider :- https://www.youtube.com/watch?v=veqCc_fgZbc
+
 ----------
 
 TIPS :- 
@@ -202,3 +206,19 @@ ______________
   2) modify the param from class calling or creating the StatefulWidget
      (for this you may need to pass callback handler that will modify the param & will rebuild
       entire stateful widget)
+
+
+* SetState vs StreamBuilder :
+  -------------------
+  -> You can use StreamBuilder for your State management purpose
+
+  Streams can be very useful mean of State management, esp when the states changes very often
+  Consider below scenarios
+
+  1. Search-Box (textField + DropDown Menu)
+
+  2. When you want to manage Single Page App (ie Web/Desktop) which have many componentes
+     & those components shared many properties/variables
+
+     Eg. Linkedin / EzConnect !
+

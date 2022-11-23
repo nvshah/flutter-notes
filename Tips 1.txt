@@ -161,3 +161,11 @@ Q. When does dispose() method gets called ?
 
 
 * To hide the keyboard you can use `FocusScope` class
+
+=> REMEMBER : SingleChildScrollView by default do ShrinkWrap (in both axes)
+
+* To disable any widget :- AbsorbPointer()
+
+* MediaQuery.removePadding() :
+  ----
+  -> Helps to remove inherent padding comes with ListView or ListView.builder() widgets

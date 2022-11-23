@@ -9,6 +9,14 @@ https://codewithandrea.com/tips/
 * flutter Scalable Folder Structure
   - https://medium.com/flutter-community/flutter-scalable-folder-files-structure-8f860faafebd
 
+* flutter beads -> get widget size in %
+
+* Restart / Reload the Flutter APP
+  https://mobikul.com/reload-restart-app-in-flutter/
+
+* state management & best practice
+  https://abhishekdoshi26.medium.com/rebuild-your-widget-without-setstate-valuenotifier-bd7c1bf7a96b
+
 ------
 
 Flutter Performancee --> Stream (https://www.youtube.com/watch?v=KH-3tbD7NoU)

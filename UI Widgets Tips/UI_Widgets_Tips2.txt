@@ -5,6 +5,8 @@
 
 * ClipPath()  // Custom Shaped Widget
 
+* CustomClipper
+
 * AnnotatedRegion //
 
 * Listener() vs GestureDetector() :
@@ -49,3 +51,13 @@
    (In Native Android)
    -> getSupportActionBar().hide()
 
+* Scrollable Widget :
+  ---
+  -> SingleChildScrollView + Column {CustomHeader, Body}
+     CustomScrollView + ScrollCongiguration
+
+  -> If you want your widget to be horizontally as well as vertically scrollable
+     then
+     you can double wrap it by SingleChildScrollView
+     1 with horizontal scroll axis
+     1 with vertical scroll axis
