@@ -1,3 +1,6 @@
 flutter knowhow working articles
 
 Flutter Project Templates // Atomic Objects
+
+[Multiple Navigators]
+https://codewithandrea.com/articles/multiple-navigators-bottom-navigation-bar/

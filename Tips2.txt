@@ -21,3 +21,5 @@
       |
       It will show up in Widget Details Tree Tab of Dev tools (whilst Doctoring the App)
 
+
+* To change the size of widget You can use :- Transform.scale()

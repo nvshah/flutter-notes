@@ -1,3 +1,6 @@
 New Concepts
 
 * ServerPod :- Backend using Dart
+
+
+* Firebase RemoteConfig & Server Driven UI

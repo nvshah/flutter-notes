@@ -15,6 +15,22 @@
 * Lottie Animation
   https://medium.com/@affanminhasdev/flutter-lottie-animation-2504243f432f
 
+* Responsive UI (ie Cross Platforms Setup)
+
+  Filled Stacks -> https://www.youtube.com/playlist?list=PLdTodMosi-Bzx3TMPdNzqLPIab_t7WkCC
+  Reso Coder  -> https://www.youtube.com/watch?v=bXwK1Lrfihw
+  Robert Brunhage -> https://www.youtube.com/watch?v=EH92XnCU1Cc
+
+  https://blog.logrocket.com/achieving-responsive-design-flutter/
+  https://medium.flutterdevs.com/adding-responsiveness-to-your-flutter-widgets-c6a5da953b02  [IMP]
+  https://www.kodeco.com/4324124-responsive-design-for-flutter-getting-started
+  https://www.thirdrocktechkno.com/blog/responsive-ui-layout-in-flutter/
+  https://www.merixstudio.com/blog/responsive-design-flutter/
+
+  [Package]
+  https://pub.dev/packages/responsive_framework
+
+
 ------------
 (Youtube)
 

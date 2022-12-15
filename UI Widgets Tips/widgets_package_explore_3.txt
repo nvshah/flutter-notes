@@ -65,6 +65,7 @@
 
 - confetti  // (celebrate drop Animations)
 - animate_it
+- weather_animation
 
 - Earth O One  // Login from multiple platforms in single
 
@@ -81,6 +82,8 @@
 -------
 
 - responsive_framework
+- bamboo
+- flutter_screenutils
 - flutter_platform_widgets
 - universal_html    // eases cross platform development
 - flutter_next
@@ -99,6 +102,7 @@
 
 - fluttertoast
 - flash (snackbar)
+- el_tooltip
 
 - dropdown_plus  // TextField + Dropdown
 
@@ -126,6 +130,7 @@
 - multi_trigger_autocomplete
 
 - search_highlighted_text
+- animated_path
 
 - Input_Form_Field  // better for text field
 
@@ -181,6 +186,10 @@
 
 - axiom  // json to type-safe dart
 
+- flutter_translate
+- easy_localization
+- translations_cleaner
+
 --------
 [ARCHI Related]
 
@@ -188,6 +197,8 @@
 
 - stacked
   mvvm_architecture  // MVVM Archi both
+
+- injecteo  // Dependency Injection
 
 - stock  // for asyncl data loading & caching  (Can help Paging3 Library impl of android)
 - drift
@@ -197,3 +208,7 @@
 - asset_manager_cli  // autogenerate pubspec code
 
 - patrol   // Flutter Testing
+
+--------
+
+psqlite

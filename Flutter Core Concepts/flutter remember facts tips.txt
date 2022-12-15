@@ -103,3 +103,10 @@ flutter remember facts tips
 
   Another Usecase of WidgetsBinding :-
    -> .instance.addPostFrameCallback()
+
+
+* GlobalKey :
+  ----
+  -> It's often used when your widget changes its position quite frequently
+  -> So when your flutter object change its position (lot of changes)
+     - You need to create related Global Key corresponding to that State of that Widget

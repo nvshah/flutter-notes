@@ -52,6 +52,10 @@
   - FractionalOffset
   - Alignment
 
+* To change the size of widget You can use :- Transform.scale()
+
+  To constrain size : BoxConstraints(), SizedBox()
+
 Q) Diff between Alignment & Fractional Offset ??
 
   -> Alignment Offset is treated as Cartesian Coordinate System -1 <-> 1
@@ -78,3 +82,7 @@ Q) Diff between Alignment & Fractional Offset ??
    (Normally Flutter put multiple RenderObjects into 1 layer)
    &
    that layer handles the painting operations (maybe repositioning the painted things also)
+
+
+* Some widgets to Wrap over RaisedButton :
+  - Row, Wrap, UnconstrainedBox, Column (main axis min), Center, Align

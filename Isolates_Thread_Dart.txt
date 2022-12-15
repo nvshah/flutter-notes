@@ -9,6 +9,8 @@
 
 (Isolates in Depth) https://www.programmersought.com/article/17595165296/
 
+Isolates Agent : https://medium.com/@gaaclarke/isolate-agents-easy-isolates-for-flutter-6d75bf69a2e7
+
 * Event Loop :
   ----------
    -> This is what makes async code possible.

@@ -49,6 +49,8 @@
       or
       ConstrainedBox()  // with double.infinity
 
+* To change the size of widget You can use :- Transform.scale()
+
 * To make offset based on percentage :
   ---
   - FractionalTranslate

@@ -41,6 +41,7 @@
      to insert or remove item from ListView in animated fashion
 
   SizeTransiton  // -> kind of animation
+  RotationTransition
 
 
 * Status Bar Hide/Show :

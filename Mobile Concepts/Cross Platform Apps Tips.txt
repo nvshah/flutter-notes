@@ -3,6 +3,32 @@ Cross Platform Apps Tips
 ref :
 Robert Brunhage - (Flutter Cross Platform Setup in 6 minutes)
 
+* Responsive UI (ie Cross Platforms Setup)
+
+  Filled Stacks -> https://www.youtube.com/playlist?list=PLdTodMosi-Bzx3TMPdNzqLPIab_t7WkCC
+  Reso Coder  -> https://www.youtube.com/watch?v=bXwK1Lrfihw
+  Robert Brunhage -> https://www.youtube.com/watch?v=EH92XnCU1Cc
+
+  https://blog.logrocket.com/achieving-responsive-design-flutter/
+  https://medium.flutterdevs.com/adding-responsiveness-to-your-flutter-widgets-c6a5da953b02  [IMP]
+  https://www.kodeco.com/4324124-responsive-design-for-flutter-getting-started
+  https://www.thirdrocktechkno.com/blog/responsive-ui-layout-in-flutter/
+  https://www.merixstudio.com/blog/responsive-design-flutter/
+
+  [Package]
+  https://pub.dev/packages/responsive_framework
+
+* Youtube
+
+  Responsive Design # Johannes Milke
+  https://www.youtube.com/watch?v=zlfScWSVblU  // [diegoveloper]
+
+
+* Adaptive
+
+  https://www.youtube.com/watch?v=7HeXcA4zDxY
+  https://www.youtube.com/watch?v=7bljwicODeY  // Adaptive Widgets
+
 
 ------
 Useful commands :
@@ -17,6 +43,8 @@ Useful Packages :
 
 universal_html
 flutter_next
+
+bamboo
 
 ------
 
