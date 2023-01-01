@@ -38,3 +38,42 @@
     parent then it will get unbounded constraints
 
   - FittedBox passess infinite bounds to its children
+
+
+* UniqueKey(), Row() & Lifecycle :
+  ----------
+  When The Parent Widget of Row() Widget has UniqueKey() ie Rebuild everytime
+  Then
+  the Child of RowWidget is not following LifeCycle as intended
+
+  Parent(
+    key: UniqueKey(),
+    child: SomeWidget(
+      child: Row(
+          children:[
+            Ch1(),
+            Ch2(),
+          ]
+        )
+    )
+  )
+
+  Here let say Ch2() is a Stateful widget
+
+  then initState() of Ch2 is followed this way:
+   \
+    -> init -> init -> dispose()
+
+  NOTE
+    => First init didnt get disposed &
+       consecutively second init is called before dispose of first happens !
+
+  OBSERVING :
+  ---------
+  -> Its not necessary that Same Widget's dispose gets called sequentially everytime
+     |
+     init -> init -> dispose can also possible
+
+  -> Widget's init is called twice before first dispose calls gets over
+
+  -> Dispose is called after next Widget's initState()

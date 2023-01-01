@@ -43,6 +43,12 @@ Programming Dart Tips :-
       So whenever XYZ yield something, that yielded value will automatically get yielded by
       the enclosing generator of yield*
 
+[ViewModels & Managers]
+=> ViewModels generally depends on
+    \
+     {Repositories, Managers, Helpers}
+     &
+     Repositories depends on Services (ie Internal or External)
 
 _________________________
 

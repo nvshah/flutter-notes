@@ -4,6 +4,8 @@
 
 Advanced Provider :- https://www.youtube.com/watch?v=veqCc_fgZbc
 
+[addListener() https://www.youtube.com/watch?v=0GNWe6vgV9s
+
 ----------
 
 TIPS :- 
@@ -43,6 +45,14 @@ TIPS :-
     Consumer, Selector   // New Build Context is required
 
     => create/Update callbacks via Provider is `lazy` by default
+
+  NOTE:
+  -> If you want to add Listener to your ChangeNotifier instance (ie to work on Side-Effect)
+     You can use
+     addListener() method available on ChangeNotifier class to register callback whenever
+                   notifyListeners() is called !
+
+
 
 * FutureProvider.value()
   -------------

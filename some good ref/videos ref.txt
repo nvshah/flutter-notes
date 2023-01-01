@@ -40,3 +40,5 @@ Youtube
 
 
 - Understanding Flutter Gestures (Flutter Vikings) :- https://www.youtube.com/watch?v=zEoASR7DTIw
+
+- Flutter & ChangeNotifier's addListener()  (heavy)

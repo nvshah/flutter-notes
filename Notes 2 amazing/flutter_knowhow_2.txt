@@ -21,3 +21,9 @@ flutter_knowhow_2.txt
 
      So here 2 concepts works to make this things happen
       - Focus + Scroll Controller (primary) + Key Shortcut Event Mapping
+
+
+* Image & Flutter :
+  ---------
+  [Image Bytes -> Base64]
+  https://www.fluttercampus.com/guide/224/convert-image-to-base64/

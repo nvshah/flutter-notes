@@ -36,3 +36,4 @@ Clean Architecture ->
 Common Design Patterns -> 
    https://www.raywenderlich.com/18409174-common-design-patterns-and-app-architectures-for-android
 
+GetIT -> https://petercoding.com/flutter/2021/07/21/using-get-it-in-flutter/

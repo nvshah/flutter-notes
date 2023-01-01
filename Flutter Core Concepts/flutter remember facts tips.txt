@@ -110,3 +110,32 @@ flutter remember facts tips
   -> It's often used when your widget changes its position quite frequently
   -> So when your flutter object change its position (lot of changes)
      - You need to create related Global Key corresponding to that State of that Widget
+
+  -> GlobalKey one of the main purpose is to access the State of an Stateful Widget
+     outside the context's enclosure
+
+
+* addPostFrameCallBack()
+  -------
+  -> You can use WidgetsBinding.instance.addPostFrameCallBack()
+     if you want to make a call at the end of current ongoing frame
+     (ie at the end of build())
+
+  -> SITUATION:
+     - If you want to call setState() & at same time also want to show the error Dialog/Toast Message
+       Then
+       You can show such SIDE-EFFECTS using the WidgetsBinding.instance.addPostFrameCallBack()
+
+     - Because addPostFrameCallback() & setState() can't be called at same time !
+
+* Provider :
+  ----
+  -> Provider when used in Widgets Tree, behaves more or like StatefulWidget
+     |
+     Where created Object (by Provider)
+     will be cached until
+     `key` is used on Provider
+
+     Thus if key changes then provider will again create new model & provides it down the tree !
+
+

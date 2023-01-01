@@ -183,4 +183,10 @@ Q)* > If your child has dimension higher than your parent height then Overflow !
   ---------------
   ref : youtube flutter channel
 
-  ->
+
+* NavigatorKey & GlobalContext :
+  -------
+  - A key is assigned to Root Widget (ie MaterialApp)
+    &
+    then you can use this navigator key in your app as a global context to
+    manipulate the App's Navigator Stack & functionalities

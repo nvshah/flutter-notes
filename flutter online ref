@@ -51,3 +51,9 @@ https://stackoverflow.com/questions/57466767/how-to-make-a-gesturedetector-captu
 * Navigation Stack
   ------
    https://medium.com/flutter-community/flutter-navigation-maintaining-tab-state-while-navigating-bottomnavigationbar-6009fbceb59c
+
+
+* ChangeNotifier's addListener :
+  ------------
+  [Heavy]
+  https://www.youtube.com/watch?v=0GNWe6vgV9s

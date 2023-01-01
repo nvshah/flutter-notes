@@ -77,7 +77,7 @@ TIP : Use PageStorageKey() to keep intact ListView where it was last time.
        You can register your model class as Singleton using Injectable
 
 
-  * Services :
+  * Services :  (Without need of Context)
     _______ 
      1) Navigation Service 
      2) Dialog Service 

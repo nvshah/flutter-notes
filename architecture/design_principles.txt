@@ -28,3 +28,10 @@ List
  
 -> methods set some values that aren’t publicly exposed and then notify listeners. 
    This is the essence of the unidirectional data flow architecture you’re implementing
+
+
+=> ViewModels generally depends on
+    \
+     {Repositories, Managers, Helpers}
+     &
+     Repositories depends on Services (ie Internal or External)

@@ -10,6 +10,9 @@ TIP :- always check mounted status (before updating/refreshing the state)
   When we work with Transition that change position of Widget in UI,
   At that time GlobalKey is very important
 
+  => GlobalKey is mainly useful to access the State of Stateful Widget
+     (Even outside of its context enclosure)
+
 
 * Flutter Hooks :
   ---------

@@ -97,6 +97,10 @@
 - quick_alert   // Beautiful Warnings Dialogs
 - shadow_overlay
 - overlayments
+- overlay_container
+- overlay_support
+
+- defer_pointer   // Display Widget outside Parent Bound
 
 - modal_side_sheet   // ** (best Eg for seeing custom animation impl)
 
@@ -171,6 +175,9 @@
 - loading_animation_widget
 
 - flutter_heatmap_calender
+
+- permission_guard
+- live_background
 -----------
 
 - dart_frog   // Backend using Dart
@@ -185,10 +192,15 @@
 - integral_isolate  // power of compute function
 
 - axiom  // json to type-safe dart
+- inferno
+
+- result_dart
 
 - flutter_translate
 - easy_localization
 - translations_cleaner
+
+- web_socket_client
 
 --------
 [ARCHI Related]
@@ -208,6 +220,7 @@
 - asset_manager_cli  // autogenerate pubspec code
 
 - patrol   // Flutter Testing
+- show_fps
 
 --------
 

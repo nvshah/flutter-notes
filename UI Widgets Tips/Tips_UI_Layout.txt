@@ -86,3 +86,10 @@ Q) Diff between Alignment & Fractional Offset ??
 
 * Some widgets to Wrap over RaisedButton :
   - Row, Wrap, UnconstrainedBox, Column (main axis min), Center, Align
+
+* To display Widget outside the Parent Box(Size/Bounds) :
+  -> You can use Stack Widget &
+     |
+     You can use Package :- `defer_pointer`
+
+     defer_pointer + Stack() Widget !
